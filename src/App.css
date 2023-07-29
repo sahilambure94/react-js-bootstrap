@@ -84,3 +84,8 @@
   margin-right: 50px;
   margin-top: 50px;
 }
+
+.top-div{
+  position: 'absolute';
+  margin-top: 10rem;
+}

@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <>
       <Navbar className="color-nav" data-bs-theme="light">
-        <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
+        <Container fluid style={{paddingLeft: '5%', paddingRight: '5%'}}>
           <Navbar.Brand href="#home">Brand Logo</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
@@ -38,10 +38,10 @@ function App() {
       </Navbar>
     </>
     <Container fluid className="container-style-upper">
-      <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
+      <Container fluid style={{paddingLeft: '5%', paddingRight: '5%'}}>
       <Row>
         <Col>
-        <div style={{ position: 'relative' , marginTop: '50px', left: 100, top: 200}}>
+        <div className="top-div">
             <h1 className="text-start">We Build Business Convert Ideas Into Software</h1>
             <p className="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="d-flex justify-content-start">
@@ -53,7 +53,7 @@ function App() {
         <Col>
         <div style={{ position: 'relative' , display: 'flex', justifyContent: 'flex-end'}}>
             <img src={mainPersonPng} alt="Image 3" style={{ position: 'relative', top: 60, left: 60 , width: '600px', height: '600px', marginRight: '50px', }} />
-            <img src={analyticsImg} alt="Image 1" style={{ position: 'absolute', top: 400, left: 1135, width: '100px', height: '100px', }} />
+            <img src={analyticsImg} alt="Image 1" style={{ position: 'absolute', top: 400, left: 189, width: '100px', height: '100px', }} />
             <img src={socialMediaImg} alt="Image 2" style={{ position: 'absolute', top: 150, right: -50, width: '150px', height: '150px'}} />
           </div>
         </Col>
